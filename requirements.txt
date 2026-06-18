@@ -1,0 +1,8 @@
+fastapi
+uvicorn
+redis
+pydantic
+requests
+python-dotenv
+smtplib
+email

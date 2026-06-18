@@ -1,0 +1,64 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+ENV/
+env/
+*.egg-info/
+dist/
+build/
+
+# Secrets (CRITICAL)
+.env
+.env.local
+.env.production
+*.env
+**/secrets.py
+**/config_local.py
+**/config.py
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# Docker
+*.log
+*.pid
+docker-compose.override.yml
+
+# Frontend
+node_modules/
+frontend/node_modules/
+frontend/.vite/
+frontend/dist/
+frontend/.env.local
+frontend/.env.production
+frontend/.cache/
+
+# OS Files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Backups & Logs
+*.bak
+*.backup
+*~
+logs/
+*.log
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
